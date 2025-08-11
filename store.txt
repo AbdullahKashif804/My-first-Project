@@ -1,0 +1,29 @@
+{
+    "2803": {
+        "name": "Abdullah",
+        "marks": {
+            "Math": 98,
+            "Eng": 95,
+            "Urdu": 90
+        },
+        "GPA": 3.7
+    },
+    "2867": {
+        "name": "Ali",
+        "marks": {
+            "Math": 58,
+            "Eng": 60,
+            "Urdu": 73
+        },
+        "GPA": 3.1
+    },
+    "6789": {
+        "name": "rehan",
+        "marks": {
+            "Math": 89,
+            "Eng": 90,
+            "Urdu": 97
+        },
+        "GPA": 3.68
+    }
+}
