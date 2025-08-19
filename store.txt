@@ -8,22 +8,34 @@
         },
         "GPA": 3.7
     },
-    "2867": {
+    "2804": {
         "name": "Ali",
         "marks": {
             "Math": 58,
             "Eng": 60,
-            "Urdu": 73
+            "Urdu": 73,
+            "math": 70,
+            "eng": 79,
+            "urdu": 87
         },
-        "GPA": 3.1
+        "GPA": 2.55
     },
-    "6789": {
-        "name": "rehan",
+    "2805": {
+        "name": "Fahad",
         "marks": {
             "Math": 89,
             "Eng": 90,
-            "Urdu": 97
+            "Urdu": 95
         },
-        "GPA": 3.68
+        "GPA": 3.65
+    },
+    "2806": {
+        "name": "Kabir",
+        "marks": {
+            "Math": 99,
+            "Eng": 98,
+            "Urdu": 98
+        },
+        "GPA": 3.93
     }
 }

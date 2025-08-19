@@ -1,0 +1,25 @@
+                                      tea
+Start
+Boil the Water
+Add tea leaf
+Add milk and sugar
+stir for 3 minutes
+pour into cups
+End
+
+                                     atm
+Start
+Ask user for amount
+check if balance>=amount
+if yes,dtuct amount and print "success"
+if no,print "you have no amount"
+End
+
+                                     login
+Start
+open website
+type username
+type password
+if username and password is correct print "login"
+if it is not correct print "try again"
+End
