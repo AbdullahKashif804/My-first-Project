@@ -26,25 +26,6 @@ else:
         "GPA": 3.1,
     },
 }
-# student_id=input("Enter the id=")
-# name=input("Enter the name=")
-# Math=int(input("Enter the marks of Math="))
-# Eng=int(input("Enter the marks of Eng="))
-# Urdu=int(input("Enter the marks of Urdu="))
-# avg=(Math + Eng +Urdu)/3
-# GPA=avg/30
-
-# Student[student_id]={
-#     "name":name,
-#     "marks":{
-#         "Math":Math,
-#         "Eng":Eng,
-#         "Urdu":Urdu
-#     },
-#     "GPA":round(GPA,2)
-# }
-# print("New Student added")
-# print(Student[student_id])
 def save_data():
     with open("store.txt","w") as f:
         f.write(json.dumps(Student,indent=4))
@@ -85,14 +66,14 @@ while True:
 
                                # Update
     elif opinion ==2:
-        std_id=input(("Enter the student id="))
+        std_id=input(("Enter the Student id="))
         if std_id in Student:
             print("New data",Student[std_id])
 
-            name=input("Enter the new name(press s to keep the same):")
-            Math=input("Enter the new Math(press s to keep the same):")
-            Eng=input("Enter the new Eng(press s to keep the same):")
-            Urdu=input("Enter the new Urdu(press s to keep the same):")
+            name=input("Enter the new name(press enter to keep the same):")
+            Math=input("Enter the new Math(press enter to keep the same):")
+            Eng=input("Enter the new Eng(press enter to keep the same):")
+            Urdu=input("Enter the new Urdu(press enter to keep the same):")
 
             if name.strip():
                 Student[std_id]["name"]=name
@@ -133,4 +114,4 @@ while True:
         break       
                  
     else:
-        print("nothing is found")
+        print("Sorry! Your request is not fulfilled")
